@@ -1,0 +1,26 @@
+
+.previewContainer {
+  margin: 40px auto;
+  width: 70%;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+}
+
+.preview {
+  width: 400px;
+  cursor: pointer;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 40px;
+}
+
+.images img {
+  width: 70px;
+  height: 100px;
+  cursor: pointer;
+}
